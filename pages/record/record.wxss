@@ -3,7 +3,7 @@
 }
 .camera-style {
   width: calc(100vw - 40px);
-  height: calc(100vh - 40px);
+  height: calc(100vh - 100px);
 }
 .opt-wrapper {
   text-align: center;
