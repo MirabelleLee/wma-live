@@ -1,11 +1,12 @@
 <!--index.wxml-->
 <view class="container">
-  <live-player src="rtmp://118.190.70.37:1935/live/stream" mode="live" background-mute="ture" autoplay bindstatechange="statechange" max-cache="1" style="width: 100vw; height: 100vh;">
+  <live-player src="rtmp://120.79.14.225:8905/live/userid=100" mode="live" background-mute="ture" autoplay bindstatechange="statechange" max-cache="1" style="width: 100vw; height: 100vh;">
     <cover-view class='stream-info'>
       当前拉流地址：
     </cover-view>
     <cover-view class='stream-info'>
-      rtmp://118.190.70.37:1935/live/stream
+      //rtmp://192.168.0.126:1935/live/playlist01
+      rtmp://120.79.14.225:8905/live/userid=100
     </cover-view>
   </live-player>
 </view>

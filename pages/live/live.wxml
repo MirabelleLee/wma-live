@@ -3,7 +3,8 @@
   <live-pusher 
     id="wx-live-pusher"
     autopush="true"
-    url="rtmp://118.190.70.37:1935/live/stream" max-bitrate="200" mode="RTC" 
+    debug="true"
+    url="rtmp://120.79.14.225:8905/live/userid=100" min-bitrate="200" max-bitrate="300" mode="RTC" 
     bindstatechange="statechange" style="width: 100vw; height: 100vh;">
     <cover-view wx:if="{{isvip}}" class='welcome-info'>
       Welcome {{userInfo.nickName}} {{secret}}

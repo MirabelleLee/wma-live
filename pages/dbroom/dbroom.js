@@ -23,11 +23,11 @@ Page({
         })
         console.log("roomNo", roomNo)
         if (roomNo % 2 == 0) {
-            pushStreamNo = '1008600'
-            pullStreamNo = '1008601'
+            pushStreamNo = 'rtmp://120.79.14.225:8905/live/userid=-838&roomid=2059&streamid=0'
+            pullStreamNo = 'rtmp://120.79.14.225:8905/live/userid=-839&roomid=2059&streamid=0'
         } else {
-            pushStreamNo = '1008601'
-            pullStreamNo = '1008600'
+            pushStreamNo = 'rtmp://120.79.14.225:8905/live/userid=-839&roomid=2059&streamid=0'
+            pullStreamNo = 'rtmp://120.79.14.225:8905/live/userid=-838&roomid=2059&streamid=0'
         }
         this.setData({
             process: 'room',
